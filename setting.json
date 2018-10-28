@@ -1,0 +1,23 @@
+{
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "editor.renderWhitespace": "all",
+    "editor.fontSize": 15,
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Monokai",
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "java.debug.logLevel": "info"
+}
