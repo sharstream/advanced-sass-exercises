@@ -1,0 +1,27 @@
+{
+  "name": "advanced-sass-exercises",
+  "version": "1.0.0",
+  "description": "Landing pages for natours",
+  "main": "index.js",
+  "homepage": "https://sharstream.github.io/advanced-sass-exercises/",
+  "watches": {
+    "sass": "sass/**"
+  },
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css -w",
+    "dev": "rerun-script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharstream/advanced-sass-exercises.git"
+  },
+  "author": "David Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharstream/advanced-sass-exercises/issues"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.4",
+    "rerun-script": "^0.6.0"
+  }
+}
