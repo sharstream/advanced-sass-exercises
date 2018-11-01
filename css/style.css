@@ -492,6 +492,19 @@ body {
     border-top: 1px solid #777;
     padding-top: 2rem; }
 
+.navigation__checkbox {
+  display: none; }
+
+.navigation__button {
+  background-color: #fff;
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  border-radius: 50%;
+  z-index: 2000; }
+
 .navigation__background {
   height: 6rem;
   width: 6rem;
@@ -499,7 +512,8 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#55c57a, #28b485); }
+  background-image: radial-gradient(#55c57a, #28b485);
+  z-index: 1000; }
 
 .row {
   max-width: 114rem;
