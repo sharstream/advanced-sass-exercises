@@ -513,7 +513,34 @@ body {
   top: 6.5rem;
   right: 6.5rem;
   background-image: radial-gradient(#55c57a, #28b485);
-  z-index: 1000; }
+  z-index: 1000;
+  transform: scale(100); }
+
+.navigation__nav {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1500; }
+
+.navigation__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center; }
+
+.navigation__item {
+  margin: 1rem; }
+
+.navigation__link {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase; }
 
 .row {
   max-width: 114rem;
