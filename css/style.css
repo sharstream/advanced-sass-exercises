@@ -492,6 +492,15 @@ body {
     border-top: 1px solid #777;
     padding-top: 2rem; }
 
+.navigation__background {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 6.5rem;
+  right: 6.5rem;
+  background-image: radial-gradient(#55c57a, #28b485); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
