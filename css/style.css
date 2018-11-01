@@ -592,6 +592,17 @@ body {
 .navigation__button:hover .navigation__icon::after {
   top: 1rem; }
 
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+  background-color: transparent; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+  top: 0;
+  transform: rotate(135deg); }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+  top: 0;
+  transform: rotate(-135deg); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
