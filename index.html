@@ -326,24 +326,28 @@
 
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
-        <div class="row">
-          <div class="col-1-of-2">
-            <div class="footer__navegation">
-              <ul class="footer__list">
-                <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Career</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
-              </ul>
-            </div>
+        <picture class="footer__logo">
+          <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" 
+                media="(max-width: 37.5em)">
+            <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo">
+        </picture>  
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navegation">
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Career</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Privacy</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+            </ul>
           </div>
-          <div class="col-1-of-2">
-            <p class="footer__copyright">
-              Built by <a href="#" class="footer__link">Jonas Schemedtmann</a> This is website under construction for<a href="#" class="footer__link">advanced css-sass course</a>. Copyright &copy; by Jonas Schemedmann. You are 100% allowed to use this webpage for both personal or commercial, but NOT to claim it as your own design. Credit for Jonas Schmedtmann!
-            </p>
-          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Jonas Schemedtmann</a> This is website under construction for<a href="#" class="footer__link">advanced css-sass course</a>. Copyright &copy; by Jonas Schemedmann. You are 100% allowed to use this webpage for both personal or commercial, but NOT to claim it as your own design. Credit for Jonas Schmedtmann!
+          </p>
         </div>
       </div>
     </footer>
